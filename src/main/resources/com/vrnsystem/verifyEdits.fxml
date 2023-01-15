@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="TOP_CENTER" hgap="0" prefHeight="551.0" prefWidth="759.0" style="-fx-background-color: #25282c;" stylesheets="@../../App.css" vgap="0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vrnsystem.verifyEdits">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <VBox prefHeight="793.0" prefWidth="759.0">
+         <children>
+            <VBox prefHeight="365.0" prefWidth="759.0">
+               <children>
+                  <Label fx:id="labelEdit" styleClass="text-default" text="Edit: 1/1">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+                  <VBox fx:id="beforeBox" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="labelBefore" styleClass="text-default" text="Before">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <HBox fx:id="addBox" minHeight="0.0" prefHeight="0.0" prefWidth="200.0">
+                           <children>
+                              <VBox prefHeight="67.0" prefWidth="180.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Registration" />
+                                    <TextField fx:id="inpRegBefore" editable="false" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="67.0" prefWidth="180.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Make" />
+                                    <TextField fx:id="inpMakeBefore" editable="false" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="67.0" prefWidth="180.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Model" />
+                                    <TextField fx:id="inpModelBefore" editable="false" prefHeight="25.0" prefWidth="180.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="67.0" prefWidth="180.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Year" />
+                                    <TextField fx:id="inpYearBefore" editable="false" prefHeight="25.0" prefWidth="180.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="67.0" prefWidth="299.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Past Offences" />
+                                    <TextField fx:id="inpOffencesBefore" editable="false" prefHeight="25.0" prefWidth="207.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+                  <Separator prefWidth="200.0" />
+                  <VBox fx:id="afterBox" prefHeight="195.0" prefWidth="759.0">
+                     <children>
+                        <Label fx:id="labelAfter" styleClass="text-default" text="After">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <HBox fx:id="addBox1" minHeight="0.0" prefHeight="0.0" prefWidth="200.0">
+                           <children>
+                              <VBox prefHeight="67.0" prefWidth="180.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Registration" />
+                                    <TextField fx:id="inpRegAfter" editable="false" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="67.0" prefWidth="180.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Make" />
+                                    <TextField fx:id="inpMakeAfter" editable="false" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="67.0" prefWidth="180.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Model" />
+                                    <TextField fx:id="inpModelAfter" editable="false" prefHeight="25.0" prefWidth="180.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="67.0" prefWidth="180.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Year" />
+                                    <TextField fx:id="inpYearAfter" editable="false" prefHeight="25.0" prefWidth="180.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="67.0" prefWidth="299.0" spacing="5.0">
+                                 <children>
+                                    <Label styleClass="text-default" text="Past Offences" />
+                                    <TextField fx:id="inpOffencesAfter" editable="false" prefHeight="25.0" prefWidth="207.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="759.0" spacing="20.0">
+               <children>
+                  <Button fx:id="btnRevertChange" mnemonicParsing="false" styleClass="btn-secondary" text="Revert Change" />
+                  <Button fx:id="btnAcceptChange" mnemonicParsing="false" styleClass="btn-success" text="Accept Change" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="759.0" spacing="20.0">
+               <children>
+                  <Button fx:id="btnFinish" mnemonicParsing="false" styleClass="btn-primary" text="Finish and Save" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</GridPane>

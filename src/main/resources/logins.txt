@@ -1,0 +1,10 @@
+Test1~Ufxx|6~ADMIN
+Test2~Ufxx|7~USER
+Test3~Ufxx|8~ADMIN
+Test4~Ufxx|9~USER
+Adam~Ufxx~ADMIN
+Adam~Ufxx|twi~USER
+Adam~Ufxx|twi~USER
+Els~Qtq~USER
+A~~USER
+B~~ADMIN
